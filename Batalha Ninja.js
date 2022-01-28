@@ -46,15 +46,15 @@ do{
         let escPc = Math.trunc(Math.random() * 3);
         console.log();
         if (escUser == 1 && escPc == 2 || escUser == 2 && escPc == 3 || escUser == 3 && escPc == 1){
-            console.log(`Você escolheu ${luta[escUser - 1]}, que ganha de ${luta[escPc]}`);
+            console.log(`Você escolheu ${luta[escUser - 1]} e o seu adversário ${luta[escPc]}, você ganhou a rodada`);
             console.log()
             vencedoruser++
         } else if(escPc == 1 && escUser == 2 || escPc == 2 && escUser == 3 || escPc == 3 && escUser == 1 ){
-            console.log(`O computador escolheu ${luta[escPc]}, que ganha de ${luta[escUser]}s`);
+            console.log(`O adversário escolheu ${luta[escPc]} e você ${luta[escUser - 1]}, o adversário ganhou a rodada`);
             console.log();
             vencedorpc++
         } else{
-            console.log(`Você e o computador escolheram ${luta[escUser - 1]}. Empate`)
+            console.log(`Você e seu adversário escolheram ${luta[escUser - 1]}. Empate`)
             console.log();
         }
     }

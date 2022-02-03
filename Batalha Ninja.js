@@ -17,7 +17,7 @@ do{
     console.log(`
     NINJUTSU ganha de TAIJUTSU mas perde para GENJUTSU
     TAIJUTSU ganha de GENJUTSU mas perde para NINJUTSU
-    GENJUTSU ganha de NINJUTSU mas perde para NINJUTSU`);
+    GENJUTSU ganha de NINJUTSU mas perde para TAIJUTSU`);
 
     console.log();
 
